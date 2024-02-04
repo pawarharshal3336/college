@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organization Insurance </title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:cornflowerblue;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 2rem;
+    }
+
+    .pricing-card {
+      background-color:whitesmoke;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 2rem;
+      margin: 1rem;
+      text-align: center;
+      width: 300px;
+    }
+
+    h2 {
+      color:goldenrod;
+    }
+
+    p {
+      color: #777;
+    }
+
+    .price {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    .cta-button {
+      background-color:red;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #45a049;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Organization Insurance</h1>
+  </header>
+
+  <section>
+    <div class="pricing-card">
+      <h2>Gold Membership</h2>
+      <p>Perfect for individuals</p>
+      <div class="price">Rs100/month</div>
+      <a href="#" class="cta-button">Get Started</a>
+    </div>
+
+    <div class="pricing-card">
+      <h2>Platinum Membership</h2>
+      <p>Great for small teams</p>
+      <div class="price">Rs500/month</div>
+      <a href="#" class="cta-button">Get Started</a>
+    </div>
+
+    <div class="pricing-card">
+      <h2>Silver Membership</h2>
+      <p>For large organizations</p>
+      <div class="price">Rs1500/month</div>
+      <a href="#" class="cta-button">Contact Us</a>
+    </div>
+  </section>
+
+</body>
+</html>
